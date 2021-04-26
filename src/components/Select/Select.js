@@ -17,7 +17,7 @@ const Select = ({ label, value, onChange, children }) => {
       </NativeSelect>
       <Presentation>
         {displayedValue}{" "}
-        <IconWrapper stye={{ "--size": ICON_SIZE + "px" }}>
+        <IconWrapper style={{ "--size": ICON_SIZE + "px" }}>
           <Icon id="chevron-down" size={ICON_SIZE} />
         </IconWrapper>
       </Presentation>
